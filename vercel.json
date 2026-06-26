@@ -14,5 +14,10 @@
       "dest": "/api/index.php"
     }
   ],
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "env": {
+    "APP_KEY": "base64:g/PLPIXIcY/0p4dW005RzdrbRSwzTDCO98Zckvsvh2k=",
+    "APP_ENV": "production",
+    "APP_DEBUG": "false"
+  }
 }
